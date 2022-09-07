@@ -1,0 +1,997 @@
+{
+    "name": "Origen",
+    "origin": "\u0000",
+    "children": {
+        "a": {
+            "name": "a",
+            "origin": "a",
+            "children": {
+                "u": {
+                    "name": "au",
+                    "origin": "u",
+                    "children": {
+                        "t": {
+                            "name": "aut",
+                            "origin": "t",
+                            "children": {
+                                "o": {
+                                    "name": "auto",
+                                    "origin": "o",
+                                    "children": {},
+                                    "end": true
+                                }
+                            },
+                            "end": false
+                        }
+                    },
+                    "end": false
+                }
+            },
+            "end": false
+        },
+        "b": {
+            "name": "b",
+            "origin": "b",
+            "children": {
+                "r": {
+                    "name": "br",
+                    "origin": "r",
+                    "children": {
+                        "e": {
+                            "name": "bre",
+                            "origin": "e",
+                            "children": {
+                                "a": {
+                                    "name": "brea",
+                                    "origin": "a",
+                                    "children": {
+                                        "k": {
+                                            "name": "break",
+                                            "origin": "k",
+                                            "children": {},
+                                            "end": true
+                                        }
+                                    },
+                                    "end": false
+                                }
+                            },
+                            "end": false
+                        }
+                    },
+                    "end": false
+                }
+            },
+            "end": false
+        },
+        "c": {
+            "name": "c",
+            "origin": "c",
+            "children": {
+                "a": {
+                    "name": "ca",
+                    "origin": "a",
+                    "children": {
+                        "s": {
+                            "name": "cas",
+                            "origin": "s",
+                            "children": {
+                                "e": {
+                                    "name": "case",
+                                    "origin": "e",
+                                    "children": {},
+                                    "end": true
+                                }
+                            },
+                            "end": false
+                        }
+                    },
+                    "end": false
+                },
+                "h": {
+                    "name": "ch",
+                    "origin": "h",
+                    "children": {
+                        "a": {
+                            "name": "cha",
+                            "origin": "a",
+                            "children": {
+                                "r": {
+                                    "name": "char",
+                                    "origin": "r",
+                                    "children": {},
+                                    "end": true
+                                }
+                            },
+                            "end": false
+                        }
+                    },
+                    "end": false
+                },
+                "o": {
+                    "name": "co",
+                    "origin": "o",
+                    "children": {
+                        "n": {
+                            "name": "con",
+                            "origin": "n",
+                            "children": {
+                                "s": {
+                                    "name": "cons",
+                                    "origin": "s",
+                                    "children": {
+                                        "t": {
+                                            "name": "const",
+                                            "origin": "t",
+                                            "children": {},
+                                            "end": true
+                                        }
+                                    },
+                                    "end": false
+                                },
+                                "t": {
+                                    "name": "cont",
+                                    "origin": "t",
+                                    "children": {
+                                        "i": {
+                                            "name": "conti",
+                                            "origin": "i",
+                                            "children": {
+                                                "n": {
+                                                    "name": "contin",
+                                                    "origin": "n",
+                                                    "children": {
+                                                        "u": {
+                                                            "name": "continu",
+                                                            "origin": "u",
+                                                            "children": {
+                                                                "e": {
+                                                                    "name": "continue",
+                                                                    "origin": "e",
+                                                                    "children": {},
+                                                                    "end": true
+                                                                }
+                                                            },
+                                                            "end": false
+                                                        }
+                                                    },
+                                                    "end": false
+                                                }
+                                            },
+                                            "end": false
+                                        }
+                                    },
+                                    "end": false
+                                }
+                            },
+                            "end": false
+                        }
+                    },
+                    "end": false
+                }
+            },
+            "end": false
+        },
+        "d": {
+            "name": "d",
+            "origin": "d",
+            "children": {
+                "e": {
+                    "name": "de",
+                    "origin": "e",
+                    "children": {
+                        "f": {
+                            "name": "def",
+                            "origin": "f",
+                            "children": {
+                                "a": {
+                                    "name": "defa",
+                                    "origin": "a",
+                                    "children": {
+                                        "u": {
+                                            "name": "defau",
+                                            "origin": "u",
+                                            "children": {
+                                                "l": {
+                                                    "name": "defaul",
+                                                    "origin": "l",
+                                                    "children": {
+                                                        "t": {
+                                                            "name": "default",
+                                                            "origin": "t",
+                                                            "children": {},
+                                                            "end": true
+                                                        }
+                                                    },
+                                                    "end": false
+                                                }
+                                            },
+                                            "end": false
+                                        }
+                                    },
+                                    "end": false
+                                }
+                            },
+                            "end": false
+                        }
+                    },
+                    "end": false
+                },
+                "o": {
+                    "name": "do",
+                    "origin": "o",
+                    "children": {
+                        "u": {
+                            "name": "dou",
+                            "origin": "u",
+                            "children": {
+                                "b": {
+                                    "name": "doub",
+                                    "origin": "b",
+                                    "children": {
+                                        "l": {
+                                            "name": "doubl",
+                                            "origin": "l",
+                                            "children": {
+                                                "e": {
+                                                    "name": "double",
+                                                    "origin": "e",
+                                                    "children": {},
+                                                    "end": true
+                                                }
+                                            },
+                                            "end": false
+                                        }
+                                    },
+                                    "end": false
+                                }
+                            },
+                            "end": false
+                        }
+                    },
+                    "end": true
+                }
+            },
+            "end": false
+        },
+        "e": {
+            "name": "e",
+            "origin": "e",
+            "children": {
+                "l": {
+                    "name": "el",
+                    "origin": "l",
+                    "children": {
+                        "s": {
+                            "name": "els",
+                            "origin": "s",
+                            "children": {
+                                "e": {
+                                    "name": "else",
+                                    "origin": "e",
+                                    "children": {},
+                                    "end": true
+                                }
+                            },
+                            "end": false
+                        }
+                    },
+                    "end": false
+                },
+                "n": {
+                    "name": "en",
+                    "origin": "n",
+                    "children": {
+                        "u": {
+                            "name": "enu",
+                            "origin": "u",
+                            "children": {
+                                "m": {
+                                    "name": "enum",
+                                    "origin": "m",
+                                    "children": {},
+                                    "end": true
+                                }
+                            },
+                            "end": false
+                        }
+                    },
+                    "end": false
+                },
+                "x": {
+                    "name": "ex",
+                    "origin": "x",
+                    "children": {
+                        "t": {
+                            "name": "ext",
+                            "origin": "t",
+                            "children": {
+                                "e": {
+                                    "name": "exte",
+                                    "origin": "e",
+                                    "children": {
+                                        "r": {
+                                            "name": "exter",
+                                            "origin": "r",
+                                            "children": {
+                                                "n": {
+                                                    "name": "extern",
+                                                    "origin": "n",
+                                                    "children": {},
+                                                    "end": true
+                                                }
+                                            },
+                                            "end": false
+                                        }
+                                    },
+                                    "end": false
+                                }
+                            },
+                            "end": false
+                        }
+                    },
+                    "end": false
+                }
+            },
+            "end": false
+        },
+        "f": {
+            "name": "f",
+            "origin": "f",
+            "children": {
+                "l": {
+                    "name": "fl",
+                    "origin": "l",
+                    "children": {
+                        "o": {
+                            "name": "flo",
+                            "origin": "o",
+                            "children": {
+                                "a": {
+                                    "name": "floa",
+                                    "origin": "a",
+                                    "children": {
+                                        "t": {
+                                            "name": "float",
+                                            "origin": "t",
+                                            "children": {},
+                                            "end": true
+                                        }
+                                    },
+                                    "end": false
+                                }
+                            },
+                            "end": false
+                        }
+                    },
+                    "end": false
+                },
+                "o": {
+                    "name": "fo",
+                    "origin": "o",
+                    "children": {
+                        "r": {
+                            "name": "for",
+                            "origin": "r",
+                            "children": {},
+                            "end": true
+                        }
+                    },
+                    "end": false
+                }
+            },
+            "end": false
+        },
+        "g": {
+            "name": "g",
+            "origin": "g",
+            "children": {
+                "o": {
+                    "name": "go",
+                    "origin": "o",
+                    "children": {
+                        "t": {
+                            "name": "got",
+                            "origin": "t",
+                            "children": {
+                                "o": {
+                                    "name": "goto",
+                                    "origin": "o",
+                                    "children": {},
+                                    "end": true
+                                }
+                            },
+                            "end": false
+                        }
+                    },
+                    "end": false
+                }
+            },
+            "end": false
+        },
+        "i": {
+            "name": "i",
+            "origin": "i",
+            "children": {
+                "f": {
+                    "name": "if",
+                    "origin": "f",
+                    "children": {},
+                    "end": true
+                },
+                "n": {
+                    "name": "in",
+                    "origin": "n",
+                    "children": {
+                        "c": {
+                            "name": "inc",
+                            "origin": "c",
+                            "children": {
+                                "l": {
+                                    "name": "incl",
+                                    "origin": "l",
+                                    "children": {
+                                        "u": {
+                                            "name": "inclu",
+                                            "origin": "u",
+                                            "children": {
+                                                "d": {
+                                                    "name": "includ",
+                                                    "origin": "d",
+                                                    "children": {
+                                                        "e": {
+                                                            "name": "include",
+                                                            "origin": "e",
+                                                            "children": {},
+                                                            "end": true
+                                                        }
+                                                    },
+                                                    "end": false
+                                                }
+                                            },
+                                            "end": false
+                                        }
+                                    },
+                                    "end": false
+                                }
+                            },
+                            "end": false
+                        },
+                        "t": {
+                            "name": "int",
+                            "origin": "t",
+                            "children": {},
+                            "end": true
+                        }
+                    },
+                    "end": false
+                }
+            },
+            "end": false
+        },
+        "l": {
+            "name": "l",
+            "origin": "l",
+            "children": {
+                "o": {
+                    "name": "lo",
+                    "origin": "o",
+                    "children": {
+                        "n": {
+                            "name": "lon",
+                            "origin": "n",
+                            "children": {
+                                "g": {
+                                    "name": "long",
+                                    "origin": "g",
+                                    "children": {},
+                                    "end": true
+                                }
+                            },
+                            "end": false
+                        }
+                    },
+                    "end": false
+                }
+            },
+            "end": false
+        },
+        "r": {
+            "name": "r",
+            "origin": "r",
+            "children": {
+                "e": {
+                    "name": "re",
+                    "origin": "e",
+                    "children": {
+                        "g": {
+                            "name": "reg",
+                            "origin": "g",
+                            "children": {
+                                "i": {
+                                    "name": "regi",
+                                    "origin": "i",
+                                    "children": {
+                                        "s": {
+                                            "name": "regis",
+                                            "origin": "s",
+                                            "children": {
+                                                "t": {
+                                                    "name": "regist",
+                                                    "origin": "t",
+                                                    "children": {
+                                                        "e": {
+                                                            "name": "registe",
+                                                            "origin": "e",
+                                                            "children": {
+                                                                "r": {
+                                                                    "name": "register",
+                                                                    "origin": "r",
+                                                                    "children": {},
+                                                                    "end": true
+                                                                }
+                                                            },
+                                                            "end": false
+                                                        }
+                                                    },
+                                                    "end": false
+                                                }
+                                            },
+                                            "end": false
+                                        }
+                                    },
+                                    "end": false
+                                }
+                            },
+                            "end": false
+                        },
+                        "t": {
+                            "name": "ret",
+                            "origin": "t",
+                            "children": {
+                                "u": {
+                                    "name": "retu",
+                                    "origin": "u",
+                                    "children": {
+                                        "r": {
+                                            "name": "retur",
+                                            "origin": "r",
+                                            "children": {
+                                                "n": {
+                                                    "name": "return",
+                                                    "origin": "n",
+                                                    "children": {},
+                                                    "end": true
+                                                }
+                                            },
+                                            "end": false
+                                        }
+                                    },
+                                    "end": false
+                                }
+                            },
+                            "end": false
+                        }
+                    },
+                    "end": false
+                }
+            },
+            "end": false
+        },
+        "s": {
+            "name": "s",
+            "origin": "s",
+            "children": {
+                "h": {
+                    "name": "sh",
+                    "origin": "h",
+                    "children": {
+                        "o": {
+                            "name": "sho",
+                            "origin": "o",
+                            "children": {
+                                "r": {
+                                    "name": "shor",
+                                    "origin": "r",
+                                    "children": {
+                                        "t": {
+                                            "name": "short",
+                                            "origin": "t",
+                                            "children": {},
+                                            "end": true
+                                        }
+                                    },
+                                    "end": false
+                                }
+                            },
+                            "end": false
+                        }
+                    },
+                    "end": false
+                },
+                "i": {
+                    "name": "si",
+                    "origin": "i",
+                    "children": {
+                        "g": {
+                            "name": "sig",
+                            "origin": "g",
+                            "children": {
+                                "n": {
+                                    "name": "sign",
+                                    "origin": "n",
+                                    "children": {
+                                        "e": {
+                                            "name": "signe",
+                                            "origin": "e",
+                                            "children": {
+                                                "d": {
+                                                    "name": "signed",
+                                                    "origin": "d",
+                                                    "children": {},
+                                                    "end": true
+                                                }
+                                            },
+                                            "end": false
+                                        }
+                                    },
+                                    "end": false
+                                }
+                            },
+                            "end": false
+                        },
+                        "z": {
+                            "name": "siz",
+                            "origin": "z",
+                            "children": {
+                                "e": {
+                                    "name": "size",
+                                    "origin": "e",
+                                    "children": {
+                                        "o": {
+                                            "name": "sizeo",
+                                            "origin": "o",
+                                            "children": {
+                                                "f": {
+                                                    "name": "sizeof",
+                                                    "origin": "f",
+                                                    "children": {},
+                                                    "end": true
+                                                }
+                                            },
+                                            "end": false
+                                        }
+                                    },
+                                    "end": false
+                                }
+                            },
+                            "end": false
+                        }
+                    },
+                    "end": false
+                },
+                "t": {
+                    "name": "st",
+                    "origin": "t",
+                    "children": {
+                        "a": {
+                            "name": "sta",
+                            "origin": "a",
+                            "children": {
+                                "t": {
+                                    "name": "stat",
+                                    "origin": "t",
+                                    "children": {
+                                        "i": {
+                                            "name": "stati",
+                                            "origin": "i",
+                                            "children": {
+                                                "c": {
+                                                    "name": "static",
+                                                    "origin": "c",
+                                                    "children": {},
+                                                    "end": true
+                                                }
+                                            },
+                                            "end": false
+                                        }
+                                    },
+                                    "end": false
+                                }
+                            },
+                            "end": false
+                        },
+                        "r": {
+                            "name": "str",
+                            "origin": "r",
+                            "children": {
+                                "u": {
+                                    "name": "stru",
+                                    "origin": "u",
+                                    "children": {
+                                        "c": {
+                                            "name": "struc",
+                                            "origin": "c",
+                                            "children": {
+                                                "t": {
+                                                    "name": "struct",
+                                                    "origin": "t",
+                                                    "children": {},
+                                                    "end": true
+                                                }
+                                            },
+                                            "end": false
+                                        }
+                                    },
+                                    "end": false
+                                }
+                            },
+                            "end": false
+                        }
+                    },
+                    "end": false
+                },
+                "w": {
+                    "name": "sw",
+                    "origin": "w",
+                    "children": {
+                        "i": {
+                            "name": "swi",
+                            "origin": "i",
+                            "children": {
+                                "t": {
+                                    "name": "swit",
+                                    "origin": "t",
+                                    "children": {
+                                        "c": {
+                                            "name": "switc",
+                                            "origin": "c",
+                                            "children": {
+                                                "h": {
+                                                    "name": "switch",
+                                                    "origin": "h",
+                                                    "children": {},
+                                                    "end": true
+                                                }
+                                            },
+                                            "end": false
+                                        }
+                                    },
+                                    "end": false
+                                }
+                            },
+                            "end": false
+                        }
+                    },
+                    "end": false
+                }
+            },
+            "end": false
+        },
+        "t": {
+            "name": "t",
+            "origin": "t",
+            "children": {
+                "y": {
+                    "name": "ty",
+                    "origin": "y",
+                    "children": {
+                        "p": {
+                            "name": "typ",
+                            "origin": "p",
+                            "children": {
+                                "e": {
+                                    "name": "type",
+                                    "origin": "e",
+                                    "children": {
+                                        "d": {
+                                            "name": "typed",
+                                            "origin": "d",
+                                            "children": {
+                                                "e": {
+                                                    "name": "typede",
+                                                    "origin": "e",
+                                                    "children": {
+                                                        "f": {
+                                                            "name": "typedef",
+                                                            "origin": "f",
+                                                            "children": {},
+                                                            "end": true
+                                                        }
+                                                    },
+                                                    "end": false
+                                                }
+                                            },
+                                            "end": false
+                                        }
+                                    },
+                                    "end": false
+                                }
+                            },
+                            "end": false
+                        }
+                    },
+                    "end": false
+                }
+            },
+            "end": false
+        },
+        "u": {
+            "name": "u",
+            "origin": "u",
+            "children": {
+                "n": {
+                    "name": "un",
+                    "origin": "n",
+                    "children": {
+                        "i": {
+                            "name": "uni",
+                            "origin": "i",
+                            "children": {
+                                "o": {
+                                    "name": "unio",
+                                    "origin": "o",
+                                    "children": {
+                                        "n": {
+                                            "name": "union",
+                                            "origin": "n",
+                                            "children": {},
+                                            "end": true
+                                        }
+                                    },
+                                    "end": false
+                                }
+                            },
+                            "end": false
+                        },
+                        "s": {
+                            "name": "uns",
+                            "origin": "s",
+                            "children": {
+                                "i": {
+                                    "name": "unsi",
+                                    "origin": "i",
+                                    "children": {
+                                        "g": {
+                                            "name": "unsig",
+                                            "origin": "g",
+                                            "children": {
+                                                "n": {
+                                                    "name": "unsign",
+                                                    "origin": "n",
+                                                    "children": {
+                                                        "e": {
+                                                            "name": "unsigne",
+                                                            "origin": "e",
+                                                            "children": {
+                                                                "d": {
+                                                                    "name": "unsigned",
+                                                                    "origin": "d",
+                                                                    "children": {},
+                                                                    "end": true
+                                                                }
+                                                            },
+                                                            "end": false
+                                                        }
+                                                    },
+                                                    "end": false
+                                                }
+                                            },
+                                            "end": false
+                                        }
+                                    },
+                                    "end": false
+                                }
+                            },
+                            "end": false
+                        }
+                    },
+                    "end": false
+                }
+            },
+            "end": false
+        },
+        "v": {
+            "name": "v",
+            "origin": "v",
+            "children": {
+                "o": {
+                    "name": "vo",
+                    "origin": "o",
+                    "children": {
+                        "i": {
+                            "name": "voi",
+                            "origin": "i",
+                            "children": {
+                                "d": {
+                                    "name": "void",
+                                    "origin": "d",
+                                    "children": {},
+                                    "end": true
+                                }
+                            },
+                            "end": false
+                        },
+                        "l": {
+                            "name": "vol",
+                            "origin": "l",
+                            "children": {
+                                "a": {
+                                    "name": "vola",
+                                    "origin": "a",
+                                    "children": {
+                                        "t": {
+                                            "name": "volat",
+                                            "origin": "t",
+                                            "children": {
+                                                "i": {
+                                                    "name": "volati",
+                                                    "origin": "i",
+                                                    "children": {
+                                                        "l": {
+                                                            "name": "volatil",
+                                                            "origin": "l",
+                                                            "children": {
+                                                                "e": {
+                                                                    "name": "volatile",
+                                                                    "origin": "e",
+                                                                    "children": {},
+                                                                    "end": true
+                                                                }
+                                                            },
+                                                            "end": false
+                                                        }
+                                                    },
+                                                    "end": false
+                                                }
+                                            },
+                                            "end": false
+                                        }
+                                    },
+                                    "end": false
+                                }
+                            },
+                            "end": false
+                        }
+                    },
+                    "end": false
+                }
+            },
+            "end": false
+        },
+        "w": {
+            "name": "w",
+            "origin": "w",
+            "children": {
+                "h": {
+                    "name": "wh",
+                    "origin": "h",
+                    "children": {
+                        "i": {
+                            "name": "whi",
+                            "origin": "i",
+                            "children": {
+                                "l": {
+                                    "name": "whil",
+                                    "origin": "l",
+                                    "children": {
+                                        "e": {
+                                            "name": "while",
+                                            "origin": "e",
+                                            "children": {},
+                                            "end": true
+                                        }
+                                    },
+                                    "end": false
+                                }
+                            },
+                            "end": false
+                        }
+                    },
+                    "end": false
+                }
+            },
+            "end": false
+        }
+    },
+    "end": false
+}

@@ -1,0 +1,19 @@
+{
+	"container": "#div-grafo",
+	"scrollbar": "None",
+	"levelSeparation": 50,
+	"siblingSeparation": 5,
+	"subTeeSeparation": 15,
+	"rootOrientation": "NORTH",
+	"node": {
+		"HTMLclass": "p-2"
+	},
+	"connectors": {
+		"type": "straight",
+		"style": {
+			"stroke-width": 2,
+			"arrow-end": "classic",
+			"stroke": "#FFFFFF"
+		}
+	}
+}

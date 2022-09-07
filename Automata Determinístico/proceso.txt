@@ -1,0 +1,239 @@
+Origen(a) -> a
+a(u) -> au
+au(t) -> aut
+aut(o) -> auto
+auto( ) -> Origen
+Origen( ) -> Origen
+Origen(b) -> b
+b(r) -> br
+br(e) -> bre
+bre(a) -> brea
+brea(k) -> break
+break( ) -> Origen
+Origen( ) -> Origen
+Origen(c) -> c
+c(a) -> ca
+ca(s) -> cas
+cas(e) -> case
+case( ) -> Origen
+Origen( ) -> Origen
+Origen(c) -> c
+c(h) -> ch
+ch(a) -> cha
+cha(r) -> char
+char( ) -> Origen
+Origen( ) -> Origen
+Origen(c) -> c
+c(o) -> co
+co(n) -> con
+con(s) -> cons
+cons(t) -> const
+const( ) -> Origen
+Origen( ) -> Origen
+Origen(c) -> c
+c(o) -> co
+co(n) -> con
+con(t) -> cont
+cont(i) -> conti
+conti(n) -> contin
+contin(u) -> continu
+continu(e) -> continue
+continue( ) -> Origen
+Origen( ) -> Origen
+Origen(d) -> d
+d(e) -> de
+de(f) -> def
+def(a) -> defa
+defa(u) -> defau
+defau(l) -> defaul
+defaul(t) -> default
+default( ) -> Origen
+Origen( ) -> Origen
+Origen(d) -> d
+d(o) -> do
+do( ) -> Origen
+Origen( ) -> Origen
+Origen(d) -> d
+d(o) -> do
+do(u) -> dou
+dou(b) -> doub
+doub(l) -> doubl
+doubl(e) -> double
+double( ) -> Origen
+Origen( ) -> Origen
+Origen(e) -> e
+e(l) -> el
+el(s) -> els
+els(e) -> else
+else( ) -> Origen
+Origen( ) -> Origen
+Origen(e) -> e
+e(n) -> en
+en(u) -> enu
+enu(m) -> enum
+enum( ) -> Origen
+Origen( ) -> Origen
+Origen(e) -> e
+e(x) -> ex
+ex(t) -> ext
+ext(e) -> exte
+exte(r) -> exter
+exter(n) -> extern
+extern( ) -> Origen
+Origen( ) -> Origen
+Origen(f) -> f
+f(l) -> fl
+fl(o) -> flo
+flo(a) -> floa
+floa(t) -> float
+float( ) -> Origen
+Origen( ) -> Origen
+Origen(f) -> f
+f(o) -> fo
+fo(r) -> for
+for( ) -> Origen
+Origen( ) -> Origen
+Origen(g) -> g
+g(o) -> go
+go(t) -> got
+got(o) -> goto
+goto( ) -> Origen
+Origen( ) -> Origen
+Origen(i) -> i
+i(f) -> if
+if( ) -> Origen
+Origen( ) -> Origen
+Origen(i) -> i
+i(n) -> in
+in(c) -> inc
+inc(l) -> incl
+incl(u) -> inclu
+inclu(d) -> includ
+includ(e) -> include
+include( ) -> Origen
+Origen( ) -> Origen
+Origen(i) -> i
+i(n) -> in
+in(t) -> int
+int( ) -> Origen
+Origen( ) -> Origen
+Origen(l) -> l
+l(o) -> lo
+lo(n) -> lon
+lon(g) -> long
+long( ) -> Origen
+Origen( ) -> Origen
+Origen(r) -> r
+r(e) -> re
+re(g) -> reg
+reg(i) -> regi
+regi(s) -> regis
+regis(t) -> regist
+regist(e) -> registe
+registe(r) -> register
+register( ) -> Origen
+Origen( ) -> Origen
+Origen(r) -> r
+r(e) -> re
+re(t) -> ret
+ret(u) -> retu
+retu(r) -> retur
+retur(n) -> return
+return( ) -> Origen
+Origen( ) -> Origen
+Origen(s) -> s
+s(h) -> sh
+sh(o) -> sho
+sho(r) -> shor
+shor(t) -> short
+short( ) -> Origen
+Origen( ) -> Origen
+Origen(s) -> s
+s(i) -> si
+si(g) -> sig
+sig(n) -> sign
+sign(e) -> signe
+signe(d) -> signed
+signed( ) -> Origen
+Origen( ) -> Origen
+Origen(s) -> s
+s(i) -> si
+si(z) -> siz
+siz(e) -> size
+size(o) -> sizeo
+sizeo(f) -> sizeof
+sizeof( ) -> Origen
+Origen( ) -> Origen
+Origen(s) -> s
+s(t) -> st
+st(a) -> sta
+sta(t) -> stat
+stat(i) -> stati
+stati(c) -> static
+static( ) -> Origen
+Origen( ) -> Origen
+Origen(s) -> s
+s(t) -> st
+st(r) -> str
+str(u) -> stru
+stru(c) -> struc
+struc(t) -> struct
+struct( ) -> Origen
+Origen( ) -> Origen
+Origen(s) -> s
+s(w) -> sw
+sw(i) -> swi
+swi(t) -> swit
+swit(c) -> switc
+switc(h) -> switch
+switch( ) -> Origen
+Origen( ) -> Origen
+Origen(t) -> t
+t(y) -> ty
+ty(p) -> typ
+typ(e) -> type
+type(d) -> typed
+typed(e) -> typede
+typede(f) -> typedef
+typedef( ) -> Origen
+Origen( ) -> Origen
+Origen(u) -> u
+u(n) -> un
+un(i) -> uni
+uni(o) -> unio
+unio(n) -> union
+union( ) -> Origen
+Origen( ) -> Origen
+Origen(u) -> u
+u(n) -> un
+un(s) -> uns
+uns(i) -> unsi
+unsi(g) -> unsig
+unsig(n) -> unsign
+unsign(e) -> unsigne
+unsigne(d) -> unsigned
+unsigned( ) -> Origen
+Origen( ) -> Origen
+Origen(v) -> v
+v(o) -> vo
+vo(i) -> voi
+voi(d) -> void
+void( ) -> Origen
+Origen( ) -> Origen
+Origen(v) -> v
+v(o) -> vo
+vo(l) -> vol
+vol(a) -> vola
+vola(t) -> volat
+volat(i) -> volati
+volati(l) -> volatil
+volatil(e) -> volatile
+volatile( ) -> Origen
+Origen( ) -> Origen
+Origen(w) -> w
+w(h) -> wh
+wh(i) -> whi
+whi(l) -> whil
+whil(e) -> while
+while( ) -> Origen
+Origen( ) -> Origen

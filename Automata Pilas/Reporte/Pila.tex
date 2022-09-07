@@ -1,0 +1,95 @@
+\documentclass[12pt,letterpaper]{article}
+\usepackage[latin1]{inputenc}
+\usepackage{amsmath}
+\usepackage{amsfonts}
+\usepackage{amssymb}
+\usepackage{graphicx}
+\usepackage{multicol}
+\usepackage{changepage}
+\usepackage{float}
+\usepackage{cite}
+\usepackage{url}
+
+
+\usepackage{listings}
+\usepackage{xcolor}
+
+\lstdefinestyle{sharpc}{language=[Sharp]C, frame=lr, rulecolor=\color{blue!80!black}}
+
+\lstset{
+    showstringspaces=false, % don't mark spaces in strings
+    numbers=left, % display line numbers on the left
+    commentstyle=\color{blue}, % comment color
+    keywordstyle=\color{magenta}, % keyword color
+    stringstyle=\color{red} % string color
+}
+
+\usepackage[left=2cm,right=2cm,top=2cm,bottom=2cm]{geometry}
+\author{Santiago Pérez Carlos Augusto}
+
+%Portada
+\begin{document}
+	\pagestyle{plain}{
+		\pagestyle{empty}
+		\noindent
+		{\small
+		\begin{tabular}{
+			p{0.75\textwidth} p{0.25\textwidth}}
+			\includegraphics[scale=0.07]{../Imagenes/ipn.png}  &  
+			\includegraphics[scale=0.35]{../Imagenes/Escom.png} 
+		\end{tabular}
+		}
+		\begin{center}
+			\par\vspace{2cm} 
+			{
+				\Huge\textbf{
+				Instituto Politécnico Nacional \\*[0.20cm] Escuela Superior de Cómputo,
+				}
+			}
+			\par\vspace{0.5cm}
+			{
+				\Large\textbf{
+				Ingeniería en sistemas computacionales \\ Materia: Teoría computacional \\ Profesor: Juárez Martínez Genaro \\ Grupo: 2CM5
+				}
+			}
+			\par\vspace{1cm}
+			{
+				\large\textbf{Prácticas 3er parcial } 
+				
+				\large\textbf{Práctica 1} 
+				\large\textbf{Autómata Pila} 
+			}
+			\par\vspace{1cm}
+			{
+				\large\textbf{Treviño Palacios Axel \\
+					20/01/2020 } 
+			}
+			\par\vspace{3cm}
+			
+		\end{center}
+		\clearpage
+
+	}
+%Documento
+	
+	\section*{Practica 1}
+	El siguiente programa realiza el funcionamiento de un autómata de pila, en el cual, cada vez que vaya recorriendo mis estados hasta uno váilod, debe de ir vaciando la pila.
+	\subsection*{Objetivo}
+	El objetivo de la práctica mostrar el funcionamiento del autómata de pila, ingresando el valor cada vez que se cumple un 0 e ir sacando (vaciando) la pila cada vez que en los estados siguientes sea un 1, para que se pueda aceptar la cadena.
+	\subsection*{Código}
+		\lstset{style=sharpc}
+	
+	\begin{lstlisting}
+%Aqui va el codigo
+	\end{lstlisting}
+	
+	\subsection*{Capturas de pantalla}
+	\begin{center}
+	
+	
+	\end{center}		
+	
+	\section*{Conclusiones}
+Al realizar la práctica se analizó la forma en la cual se pueden almacenar cada nodo identificando si es un estado final, estado inicial, o el estado en la cual la transición es 1, para que se pueda eliminar de la pila el proceso, entonces cada vez que no se termine en 01 no se cumple el estado final, por lo cual la cadena no va a ser recibida.
+
+\end{document}

@@ -1,0 +1,418 @@
+\documentclass{article}
+
+% Default packages
+\usepackage[utf8]{inputenc}
+\usepackage[spanish]{babel}
+\usepackage{fancyhdr}
+\usepackage{tikz}
+\usepackage{amssymb}
+\usepackage{float}
+
+\usepackage{pdfpages}
+\usepackage{listings}
+\usepackage{xcolor}
+
+\lstset{
+    showstringspaces=false, % don't mark spaces in strings
+    numbers=left, % display line numbers on the left
+    commentstyle=\color{blue}, % comment color
+    keywordstyle=\color{magenta}, % keyword color
+    stringstyle=\color{red} % string color
+}
+
+\usepackage{color}
+\definecolor{lightgray}{rgb}{0.95, 0.95, 0.95}
+\definecolor{darkgray}{rgb}{0.4, 0.4, 0.4}
+%\definecolor{purple}{rgb}{0.65, 0.12, 0.82}
+\definecolor{editorGray}{rgb}{0.95, 0.95, 0.95}
+\definecolor{editorOcher}{rgb}{1, 0.5, 0} % #FF7F00 -> rgb(239, 169, 0)
+\definecolor{editorGreen}{rgb}{0, 0.5, 0} % #007C00 -> rgb(0, 124, 0)
+\definecolor{orange}{rgb}{1,0.45,0.13}		
+\definecolor{olive}{rgb}{0.17,0.59,0.20}
+\definecolor{brown}{rgb}{0.69,0.31,0.31}
+\definecolor{purple}{rgb}{0.38,0.18,0.81}
+\definecolor{lightblue}{rgb}{0.1,0.57,0.7}
+\definecolor{lightred}{rgb}{1,0.4,0.5}
+\usepackage{upquote}
+\usepackage{listings}
+% JavaScript
+\lstdefinelanguage{JavaScript}{
+  morekeywords={typeof, new, true, false, catch, function, return, null, catch, switch, var, if, in, while, do, else, case, break},
+  morecomment=[s]{/*}{*/},
+  morecomment=[l]//,
+  morestring=[b]",
+  morestring=[b]'
+}
+
+
+
+
+\usepackage{graphicx}
+\graphicspath{ {./imagenes/} }
+
+\usepackage{geometry}
+\geometry{margin=2cm}
+
+\title{Autómata no Determinístico}
+\author{Axel Treviño Palacios} 
+\date{09 de enero de 2020}
+\def\thenumber{4}
+
+\makeatletter
+\let\thetitle\@title
+\let\theauthor\@author
+\let\thedate\@date
+\makeatother
+
+\pagestyle{fancy}
+\fancyhead{}
+\fancyfoot{}
+\fancyfoot[R]{\thepage}
+\fancyfoot[L]{\thetitle}
+\renewcommand{\headrulewidth}{0pt}
+\renewcommand{\footrulewidth}{0.5pt}
+
+\begin{document}
+	\begin{titlepage}
+		\centering	 
+	 	
+	 	\begin{tikzpicture}[remember picture, overlay]
+			\node[anchor=north east,inner sep=1cm] at (current page.north east)
+				{\includegraphics[height=3.5cm]{logoEscom}};
+			\node[anchor=north west,inner sep=1cm] at (current page.north west)
+				{\includegraphics[height=3.5cm]{logoPoli}};
+		\end{tikzpicture}
+
+		\vspace{4cm}
+		{\Large \scshape Instituto Politécnico Nacional \par}
+		\vspace{1cm}
+
+		{\rmfamily \bfseries \Large Escuela Superior de Cómputo \par}
+		\vspace{4cm}
+
+		{\itshape\Large Práctica \#\thenumber \par}
+		\vspace{0.5cm}
+		
+		{\scshape\Huge \thetitle \par}
+		\vspace{5cm}
+			
+		{\itshape\Large \theauthor \par}
+		2CM5
+		
+		\thedate				
+		
+		\vfill
+	\end{titlepage}
+
+	\section{Objetivo}
+	Programar el autómata finito determinístico que reconozca las palabras:
+
+\begin{itemize}
+	\item ebay
+	\item web
+	\item website
+	\item webpage
+	\item webmaster
+	\item else
+	\item we
+	\item webay
+\end{itemize}
+	
+	\section{Proceso de conversión}
+	El mismo que la práctica pasada, exceptuando que creé un algoritmo para generar automáticamente el diagrama de nodos.
+	
+	\begin{figure}[h]
+    \centering
+    \includegraphics[width=0.75\textwidth]{Proceso}
+    \caption{Tabla de Conversión}
+    \label{fig:proceso}
+	\end{figure}
+	
+	\section{Código de autómata}
+	Hay dos archivos, el archivo del servidor y el archivo de cliente.
+	
+	\includepdf[page=-]{servidor.pdf}
+
+	\includepdf[page=-]{cliente.pdf}
+	
+
+	\newpage
+	\section{Resultados}	
+	Autómata ejecutándose:	
+	
+	\begin{figure}
+    \centering
+    \includegraphics[width=0.75\textwidth]{automata1}
+    \caption{Tabla de Conversión}
+    \label{fig:proceso}
+	\end{figure}
+
+	\begin{figure}
+	\centering
+    \includegraphics[width=0.75\textwidth]{automata2}
+    \caption{Tabla de Conversión}
+    \label{fig:proceso}
+	\end{figure}    
+    
+	\begin{figure}
+	\centering
+    \includegraphics[width=0.75\textwidth]{automata3}
+    \caption{Tabla de Conversión}
+    \label{fig:proceso}
+	\end{figure}
+    
+	\begin{figure}
+	\centering
+    \includegraphics[width=0.75\textwidth]{automata4}
+    \caption{Tabla de Conversión}
+    \label{fig:proceso}
+	\end{figure}
+    
+	\begin{figure}
+	\centering
+    \includegraphics[width=0.75\textwidth]{automata5}
+    \caption{Tabla de Conversión}
+    \label{fig:proceso} 
+	\end{figure}   
+    	
+	
+	\newpage
+	Autómata finito determinístico: \textit{(Figura \ref{fig:proceso})}.\par
+	
+\begin{figure} [H]
+\begin{center}
+\begin{tikzpicture}[scale=0.2]
+\tikzstyle{every node}+=[inner sep=0pt]
+\draw [black] (6,-6) circle (3);
+\draw (6,-6) node {$0$};
+\draw [black] (13.5,-6) circle (3);
+\draw (13.5,-6) node {$0,\mbox{ }1$};
+\draw [black] (13.5,-24) circle (3);
+\draw (13.5,-24) node {$0,\mbox{ }8$};
+\draw [black] (21,-6) circle (3);
+\draw (21,-6) node {$0,\mbox{ }2$};
+\draw [black] (21,-15) circle (3);
+\draw (21,-15) node {$0,\mbox{ }5$};
+\draw [black] (28.5,-6) circle (3);
+\draw (28.5,-6) node {$0,\mbox{ }3$};
+\draw [black] (36,-6) circle (3);
+\draw (36,-6) node {$0,\mbox{ }1,\mbox{ }4$};
+\draw [black] (36,-6) circle (2.4);
+\draw [black] (28.5,-15) circle (3);
+\draw (28.5,-15) node {$0,\mbox{ }6$};
+\draw [black] (36,-15) circle (3);
+\draw (36,-15) node {$0,\mbox{ }7$};
+\draw [black] (36,-15) circle (2.4);
+\draw [black] (21,-24) circle (3);
+\draw (21,-24) node {$0,\mbox{ }1,\mbox{ }9$};
+\draw [black] (21,-24) circle (2.4);
+\draw [black] (28.5,-24) circle (3);
+\draw (28.5,-24) node {$0,\mbox{ }5,\mbox{ }10$};
+\draw [black] (28.5,-24) circle (2.4);
+\draw [black] (36,-33) circle (3);
+\draw (36,-33) node {$0,\mbox{ }17$};
+\draw [black] (36,-51) circle (3);
+\draw (36,-51) node {$0,\mbox{ }6,\mbox{ }25$};
+\draw [black] (36,-24) circle (3);
+\draw (36,-24) node {$0,\mbox{ }11$};
+\draw [black] (36,-42) circle (3);
+\draw (36,-42) node {$0,\mbox{ }21$};
+\draw [black] (43.5,-24) circle (3);
+\draw (43.5,-24) node {$0,\mbox{ }12$};
+\draw [black] (51,-24) circle (3);
+\draw (51,-24) node {$0,\mbox{ }13$};
+\draw [black] (58.5,-24) circle (3);
+\draw (58.5,-24) node {$0,\mbox{ }14$};
+\draw [black] (66,-24) circle (3);
+\draw (66,-24) node {$0,\mbox{ }1,\mbox{ }15$};
+\draw [black] (73.5,-24) circle (3);
+\draw (73.5,-24) node {$0,\mbox{ }16$};
+\draw [black] (73.5,-24) circle (2.4);
+\draw [black] (43.5,-33) circle (3);
+\draw (43.5,-33) node {$0,\mbox{ }18$};
+\draw [black] (51,-33) circle (3);
+\draw (51,-33) node {$0,\mbox{ }19$};
+\draw [black] (58.5,-33) circle (3);
+\draw (58.5,-33) node {$0,\mbox{ }1,\mbox{ }20$};
+\draw [black] (58.5,-33) circle (2.4);
+\draw [black] (43.5,-42) circle (3);
+\draw (43.5,-42) node {$0,\mbox{ }22$};
+\draw [black] (51,-42) circle (3);
+\draw (51,-42) node {$0,\mbox{ }23$};
+\draw [black] (58.5,-42) circle (3);
+\draw (58.5,-42) node {$0,\mbox{ }1,\mbox{ }24$};
+\draw [black] (58.5,-42) circle (2.4);
+\draw [black] (43.5,-51) circle (3);
+\draw (43.5,-51) node {$0,\mbox{ }7,\mbox{ }26$};
+\draw [black] (43.5,-51) circle (2.4);
+\draw [black] (9,-6) -- (10.5,-6);
+\fill [black] (10.5,-6) -- (9.7,-5.5) -- (9.7,-6.5);
+\draw [black] (8.87,-6.86) -- (33.13,-14.14);
+\fill [black] (33.13,-14.14) -- (32.5,-13.43) -- (32.22,-14.39);
+\draw [black] (15.009,-8.579) arc (58.05633:-229.94367:2.25);
+\fill [black] (12.37,-8.77) -- (11.52,-9.18) -- (12.37,-9.71);
+\draw [black] (13.5,-9) -- (13.5,-21);
+\fill [black] (13.5,-21) -- (14,-20.2) -- (13,-20.2);
+\draw [black] (16.5,-6) -- (25.5,-6);
+\fill [black] (25.5,-6) -- (24.7,-5.5) -- (24.7,-6.5);
+\draw [black] (16.29,-7.11) -- (33.21,-13.89);
+\fill [black] (33.21,-13.89) -- (32.66,-13.12) -- (32.29,-14.05);
+\draw [black] (13.5,-21) -- (13.5,-9);
+\fill [black] (13.5,-9) -- (13,-9.8) -- (14,-9.8);
+\draw [black] (14.65,-21.23) -- (19.85,-8.77);
+\fill [black] (19.85,-8.77) -- (19.08,-9.32) -- (20,-9.7);
+\draw [black] (16.29,-22.89) -- (33.21,-16.11);
+\fill [black] (33.21,-16.11) -- (32.29,-15.95) -- (32.66,-16.88);
+\draw [black] (21,-9) -- (21,-12);
+\fill [black] (21,-12) -- (21.5,-11.2) -- (20.5,-11.2);
+\draw [black] (23.57,-7.54) -- (33.43,-13.46);
+\fill [black] (33.43,-13.46) -- (33,-12.62) -- (32.48,-13.47);
+\draw [black] (19.08,-12.7) -- (15.42,-8.3);
+\fill [black] (15.42,-8.3) -- (15.55,-9.24) -- (16.32,-8.6);
+\draw [black] (19.08,-17.3) -- (15.42,-21.7);
+\fill [black] (15.42,-21.7) -- (16.32,-21.4) -- (15.55,-20.76);
+\draw [black] (22.92,-12.7) -- (26.58,-8.3);
+\fill [black] (26.58,-8.3) -- (25.68,-8.6) -- (26.45,-9.24);
+\draw [black] (24,-15) -- (33,-15);
+\fill [black] (33,-15) -- (32.2,-14.5) -- (32.2,-15.5);
+\draw [black] (25.5,-6) -- (16.5,-6);
+\fill [black] (16.5,-6) -- (17.3,-6.5) -- (17.3,-5.5);
+\draw [black] (31.5,-6) -- (33,-6);
+\fill [black] (33,-6) -- (32.2,-5.5) -- (32.2,-6.5);
+\draw [black] (30.42,-8.3) -- (34.08,-12.7);
+\fill [black] (34.08,-12.7) -- (33.95,-11.76) -- (33.18,-12.4);
+\draw [black] (33,-6) -- (16.5,-6);
+\fill [black] (16.5,-6) -- (17.3,-6.5) -- (17.3,-5.5);
+\draw [black] (34.08,-8.3) -- (30.42,-12.7);
+\fill [black] (30.42,-12.7) -- (31.32,-12.4) -- (30.55,-11.76);
+\draw [black] (36,-9) -- (36,-12);
+\fill [black] (36,-12) -- (36.5,-11.2) -- (35.5,-11.2);
+\draw [black] (25.93,-13.46) -- (16.07,-7.54);
+\fill [black] (16.07,-7.54) -- (16.5,-8.38) -- (17.02,-7.53);
+\draw [black] (31.5,-15) -- (33,-15);
+\fill [black] (33,-15) -- (32.2,-14.5) -- (32.2,-15.5);
+\draw [black] (33.43,-16.54) -- (23.57,-22.46);
+\fill [black] (23.57,-22.46) -- (24.52,-22.47) -- (24,-21.62);
+\draw [black] (37.509,-17.579) arc (58.05633:-229.94367:2.25);
+\fill [black] (34.87,-17.77) -- (34.02,-18.18) -- (34.87,-18.71);
+\draw [black] (19.85,-21.23) -- (14.65,-8.77);
+\fill [black] (14.65,-8.77) -- (14.5,-9.7) -- (15.42,-9.32);
+\draw [black] (18,-24) -- (16.5,-24);
+\fill [black] (16.5,-24) -- (17.3,-24.5) -- (17.3,-23.5);
+\draw [black] (24,-24) -- (25.5,-24);
+\fill [black] (25.5,-24) -- (24.7,-23.5) -- (24.7,-24.5);
+\draw [black] (23.57,-22.46) -- (33.43,-16.54);
+\fill [black] (33.43,-16.54) -- (32.48,-16.53) -- (33,-17.38);
+\draw [black] (26.58,-21.7) -- (15.42,-8.3);
+\fill [black] (15.42,-8.3) -- (15.55,-9.24) -- (16.32,-8.6);
+\draw [black] (31.5,-24) -- (55.5,-24);
+\fill [black] (55.5,-24) -- (54.7,-23.5) -- (54.7,-24.5);
+\draw [black] (31.07,-25.54) -- (55.93,-40.46);
+\fill [black] (55.93,-40.46) -- (55.5,-39.62) -- (54.98,-40.47);
+\draw [black] (30.42,-21.7) -- (34.08,-17.3);
+\fill [black] (34.08,-17.3) -- (33.18,-17.6) -- (33.95,-18.24);
+\draw [black] (30.42,-26.3) -- (34.08,-30.7);
+\fill [black] (34.08,-30.7) -- (33.95,-29.76) -- (33.18,-30.4);
+\draw [black] (31.29,-25.11) -- (48.21,-31.89);
+\fill [black] (48.21,-31.89) -- (47.66,-31.12) -- (47.29,-32.05);
+\draw [black] (34.08,-30.7) -- (15.42,-8.3);
+\fill [black] (15.42,-8.3) -- (15.55,-9.24) -- (16.32,-8.6);
+\draw [black] (36,-36) -- (36,-48);
+\fill [black] (36,-48) -- (36.5,-47.2) -- (35.5,-47.2);
+\draw [black] (36,-30) -- (36,-18);
+\fill [black] (36,-18) -- (35.5,-18.8) -- (36.5,-18.8);
+\draw [black] (34.66,-48.32) -- (14.84,-8.68);
+\fill [black] (14.84,-8.68) -- (14.75,-9.62) -- (15.65,-9.18);
+\draw [black] (36,-48) -- (36,-27);
+\fill [black] (36,-27) -- (35.5,-27.8) -- (36.5,-27.8);
+\draw [black] (36,-48) -- (36,-18);
+\fill [black] (36,-18) -- (35.5,-18.8) -- (36.5,-18.8);
+\draw [black] (33.66,-22.13) -- (15.84,-7.87);
+\fill [black] (15.84,-7.87) -- (16.15,-8.76) -- (16.78,-7.98);
+\draw [black] (36,-21) -- (36,-18);
+\fill [black] (36,-18) -- (35.5,-18.8) -- (36.5,-18.8);
+\draw [black] (36,-27) -- (36,-39);
+\fill [black] (36,-39) -- (36.5,-38.2) -- (35.5,-38.2);
+\draw [black] (37.15,-39.23) -- (42.35,-26.77);
+\fill [black] (42.35,-26.77) -- (41.58,-27.32) -- (42.5,-27.7);
+\draw [black] (36,-39) -- (36,-18);
+\fill [black] (36,-18) -- (35.5,-18.8) -- (36.5,-18.8);
+\draw [black] (40.93,-22.46) -- (16.07,-7.54);
+\fill [black] (16.07,-7.54) -- (16.5,-8.38) -- (17.02,-7.53);
+\draw [black] (40.5,-24) -- (16.5,-24);
+\fill [black] (16.5,-24) -- (17.3,-24.5) -- (17.3,-23.5);
+\draw [black] (41.58,-21.7) -- (30.42,-8.3);
+\fill [black] (30.42,-8.3) -- (30.55,-9.24) -- (31.32,-8.6);
+\draw [black] (41.58,-21.7) -- (37.92,-17.3);
+\fill [black] (37.92,-17.3) -- (38.05,-18.24) -- (38.82,-17.6);
+\draw [black] (46.5,-24) -- (48,-24);
+\fill [black] (48,-24) -- (47.2,-23.5) -- (47.2,-24.5);
+\draw [black] (48.3,-22.7) -- (16.2,-7.3);
+\fill [black] (16.2,-7.3) -- (16.71,-8.1) -- (17.14,-7.19);
+\draw [black] (48.43,-22.46) -- (38.57,-16.54);
+\fill [black] (38.57,-16.54) -- (39,-17.38) -- (39.52,-16.53);
+\draw [black] (55.71,-22.89) -- (16.29,-7.11);
+\fill [black] (16.29,-7.11) -- (16.84,-7.88) -- (17.21,-6.95);
+\draw [black] (55.71,-22.89) -- (38.79,-16.11);
+\fill [black] (38.79,-16.11) -- (39.34,-16.88) -- (39.71,-15.95);
+\draw [black] (61.5,-24) -- (63,-24);
+\fill [black] (63,-24) -- (62.2,-23.5) -- (62.2,-24.5);
+\draw [black] (63.16,-23.03) -- (16.34,-6.97);
+\fill [black] (16.34,-6.97) -- (16.93,-7.71) -- (17.26,-6.76);
+\draw [black] (63.13,-23.14) -- (38.87,-15.86);
+\fill [black] (38.87,-15.86) -- (39.5,-16.57) -- (39.78,-15.61);
+\draw [black] (69,-24) -- (70.5,-24);
+\fill [black] (70.5,-24) -- (69.7,-23.5) -- (69.7,-24.5);
+\draw [black] (70.63,-24.86) -- (46.37,-32.14);
+\fill [black] (46.37,-32.14) -- (47.28,-32.39) -- (47,-31.43);
+\draw [black] (70.58,-23.3) -- (38.92,-15.7);
+\fill [black] (38.92,-15.7) -- (39.58,-16.37) -- (39.81,-15.4);
+\draw [black] (41.27,-30.99) -- (15.73,-8.01);
+\fill [black] (15.73,-8.01) -- (15.99,-8.91) -- (16.66,-8.17);
+\draw [black] (40.63,-32.14) -- (16.37,-24.86);
+\fill [black] (16.37,-24.86) -- (17,-25.57) -- (17.28,-24.61);
+\draw [black] (42.04,-30.38) -- (29.96,-8.62);
+\fill [black] (29.96,-8.62) -- (29.91,-9.56) -- (30.78,-9.08);
+\draw [black] (42.35,-30.23) -- (37.15,-17.77);
+\fill [black] (37.15,-17.77) -- (37,-18.7) -- (37.92,-18.32);
+\draw [black] (48.57,-31.25) -- (15.93,-7.75);
+\fill [black] (15.93,-7.75) -- (16.29,-8.63) -- (16.88,-7.81);
+\draw [black] (54,-33) -- (55.5,-33);
+\fill [black] (55.5,-33) -- (54.7,-32.5) -- (54.7,-33.5);
+\draw [black] (49.08,-30.7) -- (37.92,-17.3);
+\fill [black] (37.92,-17.3) -- (38.05,-18.24) -- (38.82,-17.6);
+\draw [black] (55.93,-31.46) -- (16.07,-7.54);
+\fill [black] (16.07,-7.54) -- (16.5,-8.38) -- (17.02,-7.53);
+\draw [black] (56.16,-31.13) -- (38.34,-16.87);
+\fill [black] (38.34,-16.87) -- (38.65,-17.76) -- (39.28,-16.98);
+\draw [black] (55.93,-34.54) -- (46.07,-40.46);
+\fill [black] (46.07,-40.46) -- (47.02,-40.47) -- (46.5,-39.62);
+\draw [black] (46.5,-42) -- (48,-42);
+\fill [black] (48,-42) -- (47.2,-41.5) -- (47.2,-42.5);
+\draw [black] (42.7,-39.11) -- (36.8,-17.89);
+\fill [black] (36.8,-17.89) -- (36.54,-18.8) -- (37.5,-18.53);
+\draw [black] (48.84,-39.92) -- (15.66,-8.08);
+\fill [black] (15.66,-8.08) -- (15.9,-8.99) -- (16.59,-8.27);
+\draw [black] (48.3,-40.7) -- (16.2,-25.3);
+\fill [black] (16.2,-25.3) -- (16.71,-26.1) -- (17.14,-25.19);
+\draw [black] (49.41,-39.46) -- (30.09,-8.54);
+\fill [black] (30.09,-8.54) -- (30.09,-9.49) -- (30.94,-8.96);
+\draw [black] (49.54,-39.38) -- (37.46,-17.62);
+\fill [black] (37.46,-17.62) -- (37.41,-18.56) -- (38.28,-18.08);
+\draw [black] (56.16,-40.13) -- (15.84,-7.87);
+\fill [black] (15.84,-7.87) -- (16.15,-8.76) -- (16.78,-7.98);
+\draw [black] (55.93,-43.54) -- (46.07,-49.46);
+\fill [black] (46.07,-49.46) -- (47.02,-49.47) -- (46.5,-48.62);
+\draw [black] (56.58,-39.7) -- (37.92,-17.3);
+\fill [black] (37.92,-17.3) -- (38.05,-18.24) -- (38.82,-17.6);
+\draw [black] (41.84,-48.5) -- (15.16,-8.5);
+\fill [black] (15.16,-8.5) -- (15.19,-9.44) -- (16.02,-8.88);
+\draw [black] (42.89,-48.06) -- (36.61,-17.94);
+\fill [black] (36.61,-17.94) -- (36.29,-18.82) -- (37.26,-18.62);
+\end{tikzpicture}
+\end{center}
+\caption{Grafo del Autómata Finito Determinístico}
+\end{figure}
+
+
+\end{document}

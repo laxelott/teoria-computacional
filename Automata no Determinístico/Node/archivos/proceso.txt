@@ -1,0 +1,52 @@
+(t)=>
+	q0 -> q0
+(e)=>
+	q0 -> e
+( )=>
+	q0 -> q0
+	e -> q0
+		e +1
+(a)=>
+	q0 -> a
+(m)=>
+	q0 -> q0
+	a -> q0
+		a +1
+(o)=>
+	q0 -> o
+( )=>
+	q0 -> q0
+	o -> q0
+		o +1
+(a)=>
+	q0 -> a
+(r)=>
+	q0 -> q0
+	a -> ar
+		a +1
+(e)=>
+	q0 -> e
+	ar -> are
+(l)=>
+	q0 -> q0
+	e -> q0
+		e +1
+	are -> arel
+(i)=>
+	q0 -> i
+	arel -> areli
+(s)=>
+	q0 -> q0
+	i -> q0
+		i +1
+	areli -> arelis
+( )=>
+	q0 -> q0
+	arelis -> q0
+		arelis +1
+(<)=>
+	q0 -> q0
+(3)=>
+	q0 -> q0
+( )=>
+	q0 -> q0
